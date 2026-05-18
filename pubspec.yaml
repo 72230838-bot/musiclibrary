@@ -1,0 +1,24 @@
+name: music_library
+description: A Flutter music library app with YouTube support
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  youtube_player_flutter: ^8.1.2
+  http: ^1.6.0
+
+flutter:
+  uses-material-design: true 
+   
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
